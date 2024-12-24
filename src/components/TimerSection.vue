@@ -60,12 +60,17 @@
         width: 100%;  
         margin-block: 4rem;
 
+
         div {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             width: 29.875rem;
             height: 8rem;
+
+            @media (max-width: 428px) {
+                width: 20.41rem;
+            }
         }
 
         h3 {
@@ -73,6 +78,11 @@
             font-weight: 600;
             font-size: 2.5rem;
             line-height: 2.7rem;
+
+            @media (max-width: 428px) {
+                font-size: 2.5rem;
+                line-height: 2.15rem;
+            }
         }
 
         p {
@@ -80,6 +90,11 @@
             font-weight: 400;
             font-size: 1.25rem;
             line-height: 2rem;
+
+            @media (max-width: 428px) {
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+            }
         }
 
         .date {
@@ -91,10 +106,20 @@
             font-size: 4rem;
             line-height: 4.25rem;
             color: red;
+
+            @media (max-width: 428px) {
+                height: 2.2rem;
+                font-size: 3rem;
+                line-height: 2.15rem;
+            }
         }
 
         img {
             width: 29.875rem;
+
+            @media (max-width: 428px) {
+                width: 20.41rem;
+            }
         }
     }
 </style>

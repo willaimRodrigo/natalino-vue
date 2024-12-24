@@ -12,4 +12,8 @@ body {
     display: flex;
     justify-content: center;
     font-family: "Archivo", sans-serif;
+
+    @media (max-width: 428px) {
+           width: 100%;
+        }
 }

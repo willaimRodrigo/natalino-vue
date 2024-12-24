@@ -28,15 +28,14 @@
         gap: 9%;
         background-color: #ffe9e8; 
 
-        @media (max-width: 800px) {
+        @media (max-width: 820px) {
             flex-direction: column;
             height: 80vh;
         }
 
         @media (max-width: 428px) {
-            width: 90%;
-            height: 110vh;
-            gap: .5rem;
+            height: 130vh;
+            gap: 2rem;
         }
         
 
@@ -47,13 +46,14 @@
             width: 40%;
             height: 21rem;
 
-            @media (max-width: 800px) {
+            @media (max-width: 820px) {
                 width: 80%;
                 align-items: center;
             }
 
             @media (max-width: 428px) {
                 width: 80%;
+                height: 50%;
             }
         }
 
@@ -70,6 +70,7 @@
                 width: 2.1875rem;
                 height: 2.37rem;
             }
+
         }
 
         h1 {
@@ -81,13 +82,14 @@
                 color: red;
             }
 
-            @media (max-width: 800px) {
+            @media (max-width: 820px) {
                 text-align: center;
             }
 
             @media (max-width: 428px) {
-                font-size: 2rem;
+                font-size: 2.2rem;
                 line-height: 2.4rem;
+                width: 70%;
             }
         }
 
@@ -96,21 +98,22 @@
             font-size: 1.5rem;
             line-height: 2.25rem;
 
-            @media (max-width: 800px) {
+            @media (max-width: 820px) {
                 text-align: center;
             }
 
             @media (max-width: 428px) {
-                font-size: 1.12rem;
-                line-height: 1.7rem;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                width: 80%;
             }
         }
         
-        #store {
+        .store {
             width: 40%;
 
             @media (max-width: 428px) {
-                width: 19.375rem;
+                width: 60%;
             }
         }
     }

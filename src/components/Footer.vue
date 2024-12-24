@@ -32,7 +32,7 @@
         background-color: #ffe9e8;
         height: 5rem;
 
-        @media (max-width: 800px) {
+        @media (max-width: 820px) {
                 height: 12rem;
                 
             }
@@ -70,8 +70,9 @@
             display: flex;
             justify-content: space-between;
             width: 30%;
+            cursor: pointer;
 
-            @media (max-width: 800px) {
+            @media (max-width: 820px) {
                 width: 55%;
             }
         }
